@@ -1,6 +1,5 @@
 # Graph-Based Federated AI for Mutant p53 Reactivation
-**B.Tech Project Work-2 | Group 64 | MSRUAS**
-Guide: Ms. Manisha Patil
+**B.Tech Project**
 
 ---
 
