@@ -1,0 +1,31 @@
+# Core
+numpy
+pandas
+scipy
+
+# Machine Learning
+scikit-learn
+xgboost        # NEW – stacking ensemble base learner
+
+# Deep Learning & GNN
+torch
+torch-geometric
+torch-scatter
+torch-sparse
+
+# Graph / Network
+networkx
+
+# Bioinformatics
+biopython
+
+# Federated Learning
+# flwr removed – replaced with pure PyTorch FedProx server (Python 3.13 compatible)
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Utilities
+tqdm

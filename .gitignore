@@ -1,0 +1,71 @@
+# Python cache / build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local environment / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Large raw datasets
+data/raw/**/*.csv
+data/raw/**/*.txt
+data/raw/**/*.tsv
+data/raw/**/*.tab
+data/raw/**/*.tab3
+!data/raw/**/.gitkeep
+
+# Processed data and cached preprocessing artifacts
+data/processed/*
+!data/processed/.gitkeep
+
+# Trained models and checkpoints
+models/*
+!models/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+
+# Generated outputs, plots, logs, and caches
+results/*
+!results/.gitkeep
+outputs/
+logs/
+*.log
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# IDE / editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+.coverage
+coverage.xml
+htmlcov/
